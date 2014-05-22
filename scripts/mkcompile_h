@@ -46,7 +46,7 @@ fi
 LINUX_COMPILE_BY="AJ"
 LINUX_COMPILE_HOST="AndroidMachine"
 
-UTS_VERSION="#4"
+UTS_VERSION="#5"
 CONFIG_FLAGS=""
 if [ -n "$SMP" ] ; then CONFIG_FLAGS="SMP"; fi
 if [ -n "$PREEMPT" ] ; then CONFIG_FLAGS="$CONFIG_FLAGS PREEMPT"; fi
